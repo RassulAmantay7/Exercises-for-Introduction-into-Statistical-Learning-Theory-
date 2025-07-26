@@ -2,6 +2,7 @@ import numpy as np
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score
+import matplotlib.pyplot as plt # Added for plotting
 
 # Student Exam Scores Prediction
 
@@ -51,3 +52,16 @@ print("\nInterpretation:")
 print("Looks like more study hours really do help with exam scores. The model picked up on that.")
 print("For each extra hour, scores go up by about", round(model.coef_[0], 2), "points. The R-squared of", round(r2, 2), "is pretty good, means the model explains most of the score variation.")
 print("It confirms what you'd expect, really.")
+
+# --- Plotting the results ---
+plt.figure(figsize=(8, 6))
+plt.scatter(X, y, alpha=0.6, label='Generated Data')
+plt.plot(X, model.predict(X), color='red', label='Fitted Regression Line')
+plt.title('Student Exam Scores vs. Study Hours')
+plt.xlabel('Study Hours')
+plt.ylabel('Exam Score')
+plt.legend()
+plt.grid(True)
+plt.show()
+
+
