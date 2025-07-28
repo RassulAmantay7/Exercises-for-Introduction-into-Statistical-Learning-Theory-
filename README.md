@@ -5,7 +5,7 @@
 This project provides a hands-on exploration of fundamental concepts in Statistical Learning Theory. It consists of two main parts:
 
 1.  **A Jupyter Notebook** that systematically compares the performance of six different regression models on a challenging synthetic dataset.
-2.  **A comprehensive Portfolio (PDF)**, written in LaTeX, that provides the deep theoretical background for the experiments conducted in the notebook.
+2.  **A Portfolio (PDF)**, that provides the theoretical background for the experiments conducted in the notebook.
 
 ## Project Components
 
