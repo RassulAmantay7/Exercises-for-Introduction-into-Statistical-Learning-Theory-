@@ -9,14 +9,14 @@ This project provides a hands-on exploration of fundamental concepts in Statisti
 
 ## Project Components
 
-### 1. Jupyter Notebook (`2_final_code_jupyter.ipynb`)
+### 1. Jupyter Notebook (`Portfolio code.ipynb`)
 
 This notebook contains the complete Python code for the project. It walks through:
 - **Synthetic Data Generation:** Creating a dataset with known properties like non-linearity, multicollinearity, and irrelevant features.
 - **Model Training & Evaluation:** Implementing, training, and evaluating each of the six regression models.
 - **Visualization:** Generating plots for each model to visually interpret its performance, such as coefficient paths for Lasso or learning curves for Gradient Descent.
 
-### 2. Theoretical Portfolio (`portfolio_final_with_theory.pdf`)
+### 2. Theoretical Portfolio (`Portfolio Rassul Amantay.pdf`)
 
 This document provides the academic context for the practical work in the notebook. It connects the experimental results directly to the concepts from the Statistical Learning Theory course, and includes:
 
